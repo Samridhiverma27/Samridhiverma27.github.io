@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.15.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-b6909ae3d553243c48e819226151ecb8"}, "mark": {"type": "bar"}, "encoding": {"tooltip": [{"field": "Congressional Full Name", "type": "nominal"}, {"field": "Count", "type": "quantitative"}], "x": {"field": "Count", "type": "quantitative"}, "y": {"field": "Congressional Full Name", "title": "Congressional Full Name", "type": "ordinal"}}, "title": "Bar Chart of Congressional Full Name Distribution", "$schema": "https://vega.github.io/schema/vega-lite/v5.15.1.json", "datasets": {"data-b6909ae3d553243c48e819226151ecb8": [{"Congressional Full Name": "Mike Bost", "Count": 1623}, {"Congressional Full Name": "Rodney L. Davis", "Count": 1490}, {"Congressional Full Name": "John Shimkus", "Count": 1462}, {"Congressional Full Name": "Darin M. LaHood", "Count": 1102}, {"Congressional Full Name": "Adam Kinzinger", "Count": 1060}, {"Congressional Full Name": "Cheri Bustos", "Count": 661}, {"Congressional Full Name": "Robin Kelly", "Count": 318}, {"Congressional Full Name": "Randy Hultgren", "Count": 233}, {"Congressional Full Name": "Bill Foster", "Count": 218}, {"Congressional Full Name": "Robert Dold", "Count": 138}, {"Congressional Full Name": "Danny K. Davis", "Count": 110}, {"Congressional Full Name": "Tammy Duckworth", "Count": 107}, {"Congressional Full Name": "Bobby L. Rush", "Count": 48}, {"Congressional Full Name": "Mike Quigley", "Count": 46}, {"Congressional Full Name": "Daniel William Lipinski", "Count": 36}, {"Congressional Full Name": "Peter J. Roskam", "Count": 26}, {"Congressional Full Name": "Luis Gutierrez", "Count": 11}, {"Congressional Full Name": "Janice Schakowsky", "Count": 10}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
