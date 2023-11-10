@@ -18,9 +18,9 @@ Let's look at the plots and analysis below what's going on in this dataset
 
 ## Simple Plot on how Congressmen and the number of buildings made under them
 
-#
-#
-#
+
+
+
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/bar_chart_congressional.json" style="width: 100%"></vegachart>
 
@@ -52,9 +52,9 @@ On the coding front (you can check it my analysis notebook), I used a basic tric
 
 ## Interactive plot on Usage Description and Square Footage of it
 
-#
-#
-#
+
+
+
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/interactive_bar_chart.json" style="width: 100%"></vegachart>
 
