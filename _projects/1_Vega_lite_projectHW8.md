@@ -17,7 +17,14 @@ Let's look at the plots and analysis below
 
 
 
-## Simple Plot
+## Simple Plot on how Congressmen and the number of buildings made under them
+
+
+
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/bar_chart_congressional.json" style="width: 100%"></vegachart>
+
+
 
 
 This bar chart simply shows how often different Congressional appear in our dataset. Each bar corresponds to a Congressional Name, giving us a quick snapshot of how many buildings were built under which congressmen. This can help people understand the work and impact of different congressman. I have used both quantitative and ordinal encoding. People can really understand the infrastructural growth under each congressman
@@ -27,10 +34,6 @@ To keep things clear, I used a straightforward design. The x-axis tells us how m
 I skipped using fancy colors to keep it neat and focused. The idea is to make it easy for you to see which names pop up more without any unnecessary distractions.
 
 On the backend, I used a basic trick to count how many times each Congressional Full Name appears in the dataset. This way, we get a clean and simple bar chart that tells us at a glance which Congressional Names have gotten the most buildings constructed compared to all other
-
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/bar_chart_congressional.json" style="width: 100%"></vegachart>
-
 
 
 
@@ -46,7 +49,13 @@ On the backend, I used a basic trick to count how many times each Congressional 
 
 
 
-## Interactive plot 
+## Interactive plot on Usage Description and Square Footage of it
+
+
+
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/interactive_bar_chart.json" style="width: 100%"></vegachart>
+
 
 
 
@@ -63,9 +72,6 @@ In terms of design, each bar is color-coded based on the respective usage descri
 This interactive exploration leverages Altair's selection and transformation capabilities, allowing users to interact with the data and gain insights in a more engaging and dynamic manner.
 
 
-
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/interactive_bar_chart.json" style="width: 100%"></vegachart>
 
 
 <!-- these are written in a combo of html and liquid - --> 
