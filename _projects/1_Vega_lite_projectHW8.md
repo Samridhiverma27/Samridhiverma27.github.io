@@ -2,7 +2,7 @@
 name: Samridhi's HW 8 
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/bar_chart_congressional.png
-description: This is a homework project that uses vega-lite for interactive viz!
+description: This is my IS-445 homework project that uses vega-lite and Altair for interactive viz!
 custom_js:
   - vega.min
   - vega-lite.min
@@ -13,11 +13,14 @@ custom_js:
 
 ## Building Dataset
 
-Let's look at the plots and analysis below
+Let's look at the plots and analysis below what's going on in this dataset
 
 
 ## Simple Plot on how Congressmen and the number of buildings made under them
 
+#
+#
+#
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/bar_chart_congressional.json" style="width: 100%"></vegachart>
 
@@ -49,7 +52,9 @@ On the coding front (you can check it my analysis notebook), I used a basic tric
 
 ## Interactive plot on Usage Description and Square Footage of it
 
-
+#
+#
+#
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/interactive_bar_chart.json" style="width: 100%"></vegachart>
 
@@ -66,6 +71,8 @@ I have used Quantitative encoding for the 'average(Square Footage)' on the y-axi
 The x-axis represents these distinct usage descriptions, and the y-axis showcases the average square footage associated with each usage. The chart is designed to be user-friendly and visually informative, allowing users to explore and compare average square footages across different building usages.
 
 For the interactive part, I implemented a dropdown menu where Users types and can get a precise number of avg square footage for a specific usage from the list/ This can help people get a comparision on square foot and usage averages as well get a concise number on its usage and size per square feet. Scale on the main comparator graph is too big and hence having an option to view concise averages of any particular usage category can be really helpful
+
+####  Design choices
 
 In terms of design, each bar is color-coded based on the respective usage description, aiding users in quickly distinguishing between different categories.
 
