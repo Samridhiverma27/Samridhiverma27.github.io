@@ -32,7 +32,7 @@ On the backend, I used a basic trick to count how many times each Congressional 
 
 
 
-## Search The Data & Methods - Interactive plot 
+## Search The Data & Methods - Interactive plot - AA
 
 
 This interactive bar chart tells us more about 'Usage Description,' providing insights into the distribution of various usages such as Storage, Assembly, Industrial, Health Care, Business, Education, Mercantile, Residential, Detention & Correc, Utility & Miscellaneous, and Public VS the average square feet (how much space does it utilise on an average). This can particularly help people understand how the government is building infrastructure, how much space do different types of usage need and can also help justify their budgets and costs.
@@ -48,7 +48,7 @@ In terms of design, each bar is color-coded based on the respective usage descri
 This interactive exploration leverages Altair's selection and transformation capabilities, allowing users to interact with the data and gain insights in a more engaging and dynamic manner.
 
 
-<!-- these are written in a combo of html and liquid --> 
+<!-- these are written in a combo of html and liquid - --> 
 
 <div class="left">
 {% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv" text="The Data" %}
