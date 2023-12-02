@@ -1,7 +1,7 @@
 ---
 name: Final Project IS 445 
 tools: [Python, HTML, ipywidgets]
-image: assets/pngs/cars.png
+image: python_notebooks/Unemployment_Rate_Over_Time.png
 description: Decades of Unemployment - A Comprehensive Analysis Across US States¶
 custom_js:
   - vega.min
@@ -37,7 +37,6 @@ Together, these datasets form a comprehensive foundation for our analysis, allow
 Let’s look at our dataset
 
 
-
 <vegachart schema-url="{{ site.baseurl }}/assets/json/interactive_unemployment_chart.json" style="width: 100%"></vegachart>
 
 
@@ -50,24 +49,22 @@ Let’s look at our dataset
 {% include elements/button.html link="https://github.com/Samridhiverma27/Samridhiverma27.github.io/blob/main/python_notebooks/Final%20Project%20Part%203%20-%20Samridhi%20Verma%20and%20Mahir%20Thakkar%20.ipynb" text="The Analysis" %}
 </div>
 
-In this interactive visualization, we aim to explore and analyze the trends in unemployment across different U.S. states over the years. By selecting a specific state using the dropdown menu and a desired year using the slider, users can dynamically observe the variations in the monthly unemployment rates. The bar plot visually represents the percentage of the labor force unemployed for each month in the chosen state and year, offering a clear depiction of the fluctuations in unemployment levels. This visualization enables users to identify patterns, seasonal trends, and potential anomalies in the unemployment data. By interacting with the widgets, researchers, policymakers, and analysts can gain valuable insights into the dynamics of the labor market, aiding in the formulation of targeted policies and strategies to address unemployment challenges in specific regions and time periods.
+In this interactive visualization, we aim to explore and analyze the trends in unemployment across different U.S. states over the years. By selecting a specific state using the dropdown menu, users can dynamically observe the variations in the monthly unemployment rates. The bar plot visually represents the percentage of the labor force unemployed for each month in the chosen state and year, offering a clear depiction of the fluctuations in unemployment levels. This visualization enables users to identify patterns, seasonal trends, and potential anomalies in the unemployment data. By interacting with the widgets, researchers, policymakers, and analysts can gain valuable insights into the dynamics of the labor market, aiding in the formulation of targeted policies and strategies to address unemployment challenges in specific regions and time periods.
 
 
-VIZ 1 ABOVE:
+### Minimum Wage Data
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/minimum_wage_data.json" style="width: 100%"></vegachart>
 
-VIZ 2 ABOVE:
+### Average Minimum Wage Data
 
-<vegachart schema-url="{{ site.baseurl }}assets/json/average_minimum_wage_data.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/average_minimum_wage_data.json" style="width: 100%"></vegachart>
 
+### Unemployment data vs Age Groups
 
-VIZ 3 ABOVE:
+<vegachart schema-url="{{ site.baseurl }}/assets/json/unemployment_data_age_groups.json" style="width: 100%"></vegachart>
 
-<vegachart schema-url="{{ site.baseurl }}/aassets/json/unemployment_data_age_groups.json" style="width: 100%"></vegachart>
-
-
-VIZ 4 ABOVE:
+### Unemployment data vs Gender
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/unemployment_data_gender.json" style="width: 100%"></vegachart>
 
@@ -76,3 +73,10 @@ These visualizations offer a glimpse into unemployment trends based on age group
 
 
 ## CITATIONS
+
+Lislejoem. (2020, December 31). US minimum wage by state from 1968 to 2020. Kaggle. 
+https://www.kaggle.com/datasets/lislejoem/us-minimum-wage-by-state-from-1968-to-2017
+
+USA unemployment rates by Demographics & Race. Kaggle. (n.d.). 
+https://www.kaggle.com/datasets/asaniczka/unemployment-rates-by-demographics-1978-2023 
+
