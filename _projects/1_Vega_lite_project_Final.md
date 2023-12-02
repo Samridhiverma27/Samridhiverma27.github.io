@@ -1,7 +1,7 @@
 ---
 name: Final Project IS 445 
 tools: [Python, HTML, ipywidgets]
-image: python_notebooks/Unemployment_Rate_Over_Time.png
+image: assets/pngs/Gender_Distribution_of_Unemployment.png
 description: Decades of Unemployment - A Comprehensive Analysis Across US States¶
 custom_js:
   - vega.min
@@ -54,11 +54,11 @@ In this interactive visualization, we aim to explore and analyze the trends in u
 
 ### Minimum Wage Data
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/minimum_wage_data.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/average_minimum_wage_data.json" style="width: 100%"></vegachart>
 
 ### Average Minimum Wage Data
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/average_minimum_wage_data.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/minimum_wage_data.json" style="width: 100%"></vegachart>
 
 ### Unemployment data vs Age Groups
 
