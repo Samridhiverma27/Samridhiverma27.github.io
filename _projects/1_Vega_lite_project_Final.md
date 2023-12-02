@@ -39,6 +39,8 @@ Let’s look at our dataset
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/interactive_unemployment_chart.json" style="width: 100%"></vegachart>
 
+<vegachart schema-url="{{ site.baseurl }}/assets/json/average_minimum_wage_data.json" style="width: 100%"></vegachart>
+
 
 <div class="left">
 {% include elements/button.html link="https://raw.githubusercontent.com/Samridhiverma27/Samridhiverma27.github.io/main/python_notebooks/Unemployment%20in%20USA.csv" text="The Data" %}
@@ -65,7 +67,7 @@ In this interactive visualization, we aim to explore and analyze the trends in u
 
 ### Unemployment data vs Gender
 
-<vegachart schema-url="{{site.baseurl}}/assets/json/unemployment_data_gender.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/unemployment_data_gender.json" style="width: 100%"></vegachart>
 
 
 These visualizations offer a glimpse into unemployment trends based on age groups and gender. The first plot illustrates how unemployment rates vary across different age brackets over time, helping identify age-specific patterns. The second plot, a stacked area chart, provides insights into the gender distribution of unemployment, showcasing the relative contributions of male and female unemployment rates to the overall trend. These visualizations enable a quick and clear understanding of how different demographic factors influence and contribute to overall unemployment rates, aiding policymakers and analysts in developing targeted strategies for specific groups in the labor market.
