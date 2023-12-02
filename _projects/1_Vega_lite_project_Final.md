@@ -37,6 +37,8 @@ Together, these datasets form a comprehensive foundation for our analysis, allow
 
 Let’s look at our dataset
 
+<vegachart schema-url="{{ site.baseurl }}/assets/json/altair_minimum_wage_data.json" style="width: 100%"><vegachart>
+
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/interactive_unemployment_chart.json" style="width: 100%"></vegachart>
 
@@ -55,7 +57,7 @@ In this interactive visualization, we aim to explore and analyze the trends in u
 
 ### Minimum Wage Data
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/altair_average_minimum_wage_data.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/altair_average_minimum_wage_data.json" style="width: 100%"><vegachart>
 
 
 ### Average Minimum Wage Data
@@ -66,7 +68,7 @@ In this interactive visualization, we aim to explore and analyze the trends in u
 ### Unemployment data vs Age Groups
 
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/altair_unemployment_data_age_groups.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/altair_unemployment_data_age_groups.json" style="width: 100%">< vegachart>
 
 
 ### Unemployment data vs Gender
