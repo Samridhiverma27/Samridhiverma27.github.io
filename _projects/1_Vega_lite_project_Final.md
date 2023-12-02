@@ -55,6 +55,8 @@ In this interactive visualization, we aim to explore and analyze the trends in u
 
 ### Minimum Wage Data
 
+Our visualization from dataset 1
+
 <vegachart schema-url="{{ site.baseurl }}/assets/json/average_minimum_wage_data.json" style="width: 100%"></vegachart>
 
 ### Average Minimum Wage Data
@@ -62,6 +64,8 @@ In this interactive visualization, we aim to explore and analyze the trends in u
 <vegachart schema-url="{{ site.baseurl }}/assets/json/minimum_wage_data.json" style="width: 100%"></vegachart>
 
 ### Unemployment data vs Age Groups
+
+Our visualization from dataset 2 
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/unemployment_data_age_groups.json" style="width: 100%"></vegachart>
 
