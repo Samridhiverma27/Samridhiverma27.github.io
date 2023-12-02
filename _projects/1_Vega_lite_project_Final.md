@@ -39,7 +39,6 @@ Let’s look at our dataset
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/interactive_unemployment_chart.json" style="width: 100%"></vegachart>
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/average_minimum_wage_data.json" style="width: 100%"></vegachart>
 
 
 <div class="left">
@@ -56,6 +55,8 @@ In this interactive visualization, we aim to explore and analyze the trends in u
 ### Minimum Wage Data
 
 Our visualization from dataset 1
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/average_minimum_wage_data.json" style="width: 100%"></vegachart>
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/average_minimum_wage_data.json" style="width: 100%"></vegachart>
 
