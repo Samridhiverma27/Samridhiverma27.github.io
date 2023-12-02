@@ -12,6 +12,7 @@ custom_js:
 
 
 # Decades of Unemployment - A Comprehensive Analysis Across US States¶
+# Team members : Samridhi Verma and Mahir Thakkar
 
 ## 1.1 Objective:
 
