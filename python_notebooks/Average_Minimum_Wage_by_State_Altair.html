@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.16.3"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-94f2ae2ab3408a6a70718bd4f61a2f1c"}, "mark": {"type": "bar", "color": "skyblue"}, "encoding": {"tooltip": [{"field": "State", "type": "nominal"}, {"field": "Effective.Minimum.Wage.2020.Dollars", "type": "quantitative"}], "x": {"field": "State", "sort": {"field": "Effective.Minimum.Wage.2020.Dollars", "op": "mean", "order": "ascending"}, "type": "nominal"}, "y": {"field": "Effective.Minimum.Wage.2020.Dollars", "type": "quantitative"}}, "height": 400, "title": "Average Minimum Wage by State (2020 Dollars)", "width": 800, "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json", "datasets": {"data-94f2ae2ab3408a6a70718bd4f61a2f1c": [{"State": "Alabama", "Effective.Minimum.Wage.2020.Dollars": 7.99188679245283}, {"State": "Virginia", "Effective.Minimum.Wage.2020.Dollars": 7.99188679245283}, {"State": "Utah", "Effective.Minimum.Wage.2020.Dollars": 7.99188679245283}, {"State": "Texas", "Effective.Minimum.Wage.2020.Dollars": 7.99188679245283}, {"State": "Tennessee", "Effective.Minimum.Wage.2020.Dollars": 7.99188679245283}, {"State": "South Carolina", "Effective.Minimum.Wage.2020.Dollars": 7.99188679245283}, {"State": "Puerto Rico", "Effective.Minimum.Wage.2020.Dollars": 7.99188679245283}, {"State": "Oklahoma", "Effective.Minimum.Wage.2020.Dollars": 7.99188679245283}, {"State": "North Dakota", "Effective.Minimum.Wage.2020.Dollars": 7.99188679245283}, {"State": "Mississippi", "Effective.Minimum.Wage.2020.Dollars": 7.99188679245283}, {"State": "Georgia", "Effective.Minimum.Wage.2020.Dollars": 7.99188679245283}, {"State": "Louisiana", "Effective.Minimum.Wage.2020.Dollars": 7.99188679245283}, {"State": "Kentucky", "Effective.Minimum.Wage.2020.Dollars": 7.99188679245283}, {"State": "Idaho", "Effective.Minimum.Wage.2020.Dollars": 7.99188679245283}, {"State": "Kansas", "Effective.Minimum.Wage.2020.Dollars": 7.99188679245283}, {"State": "Indiana", "Effective.Minimum.Wage.2020.Dollars": 7.99188679245283}, {"State": "Wyoming", "Effective.Minimum.Wage.2020.Dollars": 8.005471698113208}, {"State": "North Carolina", "Effective.Minimum.Wage.2020.Dollars": 8.022264150943396}, {"State": "Nevada", "Effective.Minimum.Wage.2020.Dollars": 8.053396226415096}, {"State": "Pennsylvania", "Effective.Minimum.Wage.2020.Dollars": 8.060943396226415}, {"State": "Wisconsin", "Effective.Minimum.Wage.2020.Dollars": 8.078867924528302}, {"State": "Minnesota", "Effective.Minimum.Wage.2020.Dollars": 8.096037735849055}, {"State": "Iowa", "Effective.Minimum.Wage.2020.Dollars": 8.121132075471698}, {"State": "Montana", "Effective.Minimum.Wage.2020.Dollars": 8.129622641509433}, {"State": "New Mexico", "Effective.Minimum.Wage.2020.Dollars": 8.141132075471699}, {"State": "New Hampshire", "Effective.Minimum.Wage.2020.Dollars": 8.153207547169812}, {"State": "Nebraska", "Effective.Minimum.Wage.2020.Dollars": 8.178301886792452}, {"State": "South Dakota", "Effective.Minimum.Wage.2020.Dollars": 8.180943396226414}, {"State": "Missouri", "Effective.Minimum.Wage.2020.Dollars": 8.180943396226416}, {"State": "Arkansas", "Effective.Minimum.Wage.2020.Dollars": 8.186603773584906}, {"State": "Ohio", "Effective.Minimum.Wage.2020.Dollars": 8.194716981132078}, {"State": "West Virginia", "Effective.Minimum.Wage.2020.Dollars": 8.201886792452832}, {"State": "U.S. Virgin Islands", "Effective.Minimum.Wage.2020.Dollars": 8.211132075471697}, {"State": "Florida", "Effective.Minimum.Wage.2020.Dollars": 8.247358490566038}, {"State": "Maryland", "Effective.Minimum.Wage.2020.Dollars": 8.300754716981132}, {"State": "Michigan", "Effective.Minimum.Wage.2020.Dollars": 8.34830188679245}, {"State": "Guam", "Effective.Minimum.Wage.2020.Dollars": 8.360566037735849}, {"State": "Colorado", "Effective.Minimum.Wage.2020.Dollars": 8.432452830188678}, {"State": "Arizona", "Effective.Minimum.Wage.2020.Dollars": 8.435849056603775}, {"State": "Delaware", "Effective.Minimum.Wage.2020.Dollars": 8.454716981132075}, {"State": "Illinois", "Effective.Minimum.Wage.2020.Dollars": 8.46188679245283}, {"State": "New Jersey", "Effective.Minimum.Wage.2020.Dollars": 8.568867924528302}, {"State": "Maine", "Effective.Minimum.Wage.2020.Dollars": 8.716981132075471}, {"State": "Hawaii", "Effective.Minimum.Wage.2020.Dollars": 8.800754716981132}, {"State": "New York", "Effective.Minimum.Wage.2020.Dollars": 8.832075471698115}, {"State": "Rhode Island", "Effective.Minimum.Wage.2020.Dollars": 8.922452830188679}, {"State": "Vermont", "Effective.Minimum.Wage.2020.Dollars": 9.057358490566038}, {"State": "California", "Effective.Minimum.Wage.2020.Dollars": 9.16132075471698}, {"State": "Connecticut", "Effective.Minimum.Wage.2020.Dollars": 9.212830188679247}, {"State": "Oregon", "Effective.Minimum.Wage.2020.Dollars": 9.22188679245283}, {"State": "Massachusetts", "Effective.Minimum.Wage.2020.Dollars": 9.262452830188678}, {"State": "District of Columbia", "Effective.Minimum.Wage.2020.Dollars": 9.29547169811321}, {"State": "Washington", "Effective.Minimum.Wage.2020.Dollars": 9.402075471698115}, {"State": "Alaska", "Effective.Minimum.Wage.2020.Dollars": 9.917735849056609}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
