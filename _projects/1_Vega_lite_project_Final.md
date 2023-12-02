@@ -56,23 +56,22 @@ In this interactive visualization, we aim to explore and analyze the trends in u
 
 Our visualization from dataset 1
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/average_minimum_wage_data.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/2average_minimum_wage_data.json" style="width: 100%"></vegachart>
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/average_minimum_wage_data.json" style="width: 100%"></vegachart>
 
 ### Average Minimum Wage Data
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/minimum_wage_data.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/2minimum_wage_data.json" style="width: 100%"></vegachart>
 
 ### Unemployment data vs Age Groups
 
 Our visualization from dataset 2 
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/unemployment_data_age_groups.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/2unemployment_data_age_groups.json" style="width: 100%"></vegachart>
 
 ### Unemployment data vs Gender
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/unemployment_data_gender.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/2unemployment_data_gender.json" style="width: 100%"></vegachart>
 
 
 These visualizations offer a glimpse into unemployment trends based on age groups and gender. The first plot illustrates how unemployment rates vary across different age brackets over time, helping identify age-specific patterns. The second plot, a stacked area chart, provides insights into the gender distribution of unemployment, showcasing the relative contributions of male and female unemployment rates to the overall trend. These visualizations enable a quick and clear understanding of how different demographic factors influence and contribute to overall unemployment rates, aiding policymakers and analysts in developing targeted strategies for specific groups in the labor market.
@@ -84,5 +83,4 @@ Lislejoem. (2020, December 31). US minimum wage by state from 1968 to 2020. Kagg
 https://www.kaggle.com/datasets/lislejoem/us-minimum-wage-by-state-from-1968-to-2017
 
 USA unemployment rates by Demographics & Race. Kaggle. (n.d.). 
-https://www.kaggle.com/datasets/asaniczka/unemployment-rates-by-demographics-1978-2023 
-
+https://www.kaggle.com/datasets/asaniczka/unemployment-rates-by-demographics-1978-2023
