@@ -22,12 +22,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Vega Lite Example Project HW 8">
-  <meta property="og:description" content="This is a "showcase" project that uses vega-lite for interactive viz!">
-  <meta property="og:image" content="assets/pngs/cars.png">
+  <meta property="og:title" content="Samridhi&#39;s HW 8">
+  <meta property="og:description" content="This is my IS-445 homework project that uses vega-lite and Altair for interactive viz!">
+  <meta property="og:image" content="assets/pngs/bar_chart_congressional.png">
 
-  <title>Vega Lite Example Project HW 8</title>
-  <meta name="description" content="This is a "showcase" project that uses vega-lite for interactive viz!">
+  <title>Samridhi&#39;s HW 8</title>
+  <meta name="description" content="This is my IS-445 homework project that uses vega-lite and Altair for interactive viz!">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -53,7 +53,7 @@
   <main class="flex-shrink-0 container mt-5">
     <nav class="navbar navbar-expand-lg navbar-themed">
 
-  <a class="navbar-brand" href="/"><h5><b>Samridhi's Homework 8</b></h5></a>
+  <a class="navbar-brand" href="/"><h5><b>Final Project IS 445</b></h5></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-1x fa-bars text-themed"></i>
@@ -74,54 +74,73 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <h1 id="example-including-vega-lite">Example including vega-lite</h1>
+  <h2 id="building-dataset">Building Dataset</h2>
 
-<p>Example comes from this <a href="https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html">great blog post right here</a> that was also used in <a href="https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/blob/main/week01/test_imports_week01.ipynb">our test import script</a>.</p>
+<p>Let’s look at the plots and analysis below what’s going on in this dataset</p>
 
-<p>We can use a vegachart HTML tag like so:</p>
+<h2 id="simple-plot-on-how-congressmen-and-the-number-of-buildings-made-under-them">Simple Plot on how Congressmen and the number of buildings made under them</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;vegachart schema-url="/assets/json/cars.json" style="width: 100%"&gt;&lt;/vegachart&gt;
-</code></pre></div></div>
+<vegachart schema-url="/assets/json/bar_chart_congressional.json" style="width: 100%"></vegachart>
 
-<vegachart schema-url="/assets/json/cars.json" style="width: 100%"></vegachart>
+<p>This bar chart simply shows how often different Congressional appear in our dataset. Each bar corresponds to a Congressional Name, giving us a quick snapshot of how many buildings were built under which congressmen. This can help people understand the work and impact of different congressman. I have used both quantitative and ordinal encoding. People can really understand the infrastructural growth under each congressman</p>
 
-<p>In theory, you can also use <a href="https://jekyllrb.com/docs/plugins/hooks/">Jekyll hooks</a> to do it, but I haven’t figured out a way that looks nice yet.</p>
+<p>To keep things clear, I used a straightforward design. The x-axis tells us how many times each name shows up (that’s the count), and the y-axis lists the Congressional Full Names. It’s like a tally chart, but in a visual form.</p>
 
-<h2 id="from-dictionary-altair-in-python">From dictionary Altair in Python</h2>
+<p>I skipped using fancy colors to keep it neat and focused. The idea is to make it easy for you to see which names pop up more without any unnecessary distractions.</p>
 
-<vegachart schema-url="/assets/json/interactive_bar_chart.json" style="width: 100%"></vegachart>
-
-<h2 id="search-the-data--methods">Search The Data &amp; Methods</h2>
-
-<p>Below is where we can put some links to both the data and the analysis code as buttons:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="left"&gt;
-&lt;a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/interactive_bar_chart.json"&gt;
-  The Data
-&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class="right"&gt;
-&lt;a class="m-1 btn btn-outline-primary btn-2 " href="https://blog.4dcu.be/programming/2021/05/03/interactive_bar_chart.html"&gt;
-  The Analysis
-&lt;/a&gt;
-&lt;/div&gt;
-</code></pre></div></div>
-
-<!-- these are written in a combo of html and liquid -->
+<p>On the coding front (you can check it my analysis notebook), I used a basic trick to count how many times each Congressional Full Name appears in the dataset. This way, we get a clean and simple bar chart that tells us at a glance which Congressional Names have gotten the most buildings constructed compared to all other</p>
 
 <div class="left">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/interactive_bar_chart.json">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv">
   The Data
 </a>
 </div>
 
 <div class="right">
-<a class="m-1 btn btn-outline-primary btn-2 " href="/Users/samridhiverma/Desktop/Samridhiverma27.github.io/python_notebooks/HW8-IS445.ipynb">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/Samridhiverma27/Samridhiverma27.github.io/blob/main/python_notebooks/HW8-IS445.ipynb">
   The Analysis
 </a>
 </div>
 
+<h2 id="interactive-plot-on-usage-description-and-square-footage-of-it">Interactive plot on Usage Description and Square Footage of it</h2>
+
+<vegachart schema-url="/assets/json/interactive_bar_chart.json" style="width: 100%"></vegachart>
+
+<p>This interactive bar chart tells us more about ‘Usage Description,’ providing insights into the distribution of various usages such as Storage, Assembly, Industrial, Health Care, Business, Education, Mercantile, Residential, Detention &amp; Correc, Utility &amp; Miscellaneous, and Public VS the average square feet (how much space does it utilise on an average). This can particularly help people understand how the government is building infrastructure, how much space do different types of usage need and can also help justify their budgets and costs.</p>
+
+<h4 id="encodings">Encodings</h4>
+
+<p>I have used Quantitative encoding for the ‘average(Square Footage)’ on the y-axis, Ordinal encoding for the ‘Usage Description’ on the x-axis, and Nominal encoding for color representation based on the ‘Usage Description’.</p>
+
+<h4 id="plot-axis">Plot Axis</h4>
+
+<p>The x-axis represents these distinct usage descriptions, and the y-axis showcases the average square footage associated with each usage. The chart is designed to be user-friendly and visually informative, allowing users to explore and compare average square footages across different building usages.</p>
+
+<p>For the interactive part, I implemented a dropdown menu where Users types and can get a precise number of avg square footage for a specific usage from the list/ This can help people get a comparision on square foot and usage averages as well get a concise number on its usage and size per square feet. Scale on the main comparator graph is too big and hence having an option to view concise averages of any particular usage category can be really helpful</p>
+
+<h4 id="design-choices">Design choices</h4>
+
+<p>In terms of design, each bar is color-coded based on the respective usage description, aiding users in quickly distinguishing between different categories.</p>
+
+<p>This interactive exploration leverages Altair’s selection and transformation capabilities, allowing users to interact with the data and gain insights in a more engaging and dynamic manner.</p>
+
+<!-- these are written in a combo of html and liquid - -->
+
+<div class="left">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv">
+  The Data
+</a>
+</div>
+
+<div class="right">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/Samridhiverma27/Samridhiverma27.github.io/blob/main/python_notebooks/HW8-IS445.ipynb">
+  The Analysis
+</a>
+</div>
+
+<h2 id="overlap-from-homework-7">Overlap from Homework 7</h2>
+
+<p>There is not visualization overlap from homework 7, I have made new visualizations for this part of the assignment.</p>
 
 </div>
   </main>
