@@ -37,11 +37,7 @@ Together, these datasets form a comprehensive foundation for our analysis, allow
 
 Let’s look at our dataset
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/altair_minimum_wage_data.json" style="width: 100%"><vegachart>
-
-
 <vegachart schema-url="{{ site.baseurl }}/assets/json/interactive_unemployment_chart.json" style="width: 100%"></vegachart>
-
 
 
 <div class="left">
@@ -55,23 +51,22 @@ Let’s look at our dataset
 
 In this interactive visualization, we aim to explore and analyze the trends in unemployment across different U.S. states over the years. By selecting a specific state using the dropdown menu, users can dynamically observe the variations in the monthly unemployment rates. The bar plot visually represents the percentage of the labor force unemployed for each month in the chosen state and year, offering a clear depiction of the fluctuations in unemployment levels. This visualization enables users to identify patterns, seasonal trends, and potential anomalies in the unemployment data. By interacting with the widgets, researchers, policymakers, and analysts can gain valuable insights into the dynamics of the labor market, aiding in the formulation of targeted policies and strategies to address unemployment challenges in specific regions and time periods.
 
-### Minimum Wage Data
+
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_average_minimum_wage_data.json" style="width: 100%"><vegachart>
 
 
-### Average Minimum Wage Data
+
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_minimum_wage_data.json" style="width: 100%"></vegachart>
 
 
-### Unemployment data vs Age Groups
+
 
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_unemployment_data_age_groups.json" style="width: 100%">< vegachart>
 
 
-### Unemployment data vs Gender
 
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_unemployment_data_gender.json" style="width: 100%"></vegachart>
