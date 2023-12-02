@@ -2,7 +2,7 @@
 name: Final Project IS 445 
 tools: [Python, HTML, ipywidgets]
 image: assets/pngs/Gender_Distribution_of_Unemployment.png
-description: Decades of Unemployment - A Comprehensive Analysis Across US States
+description: Decades of Unemployment - A Comprehensive Analysis Across US States. Team members - Samridhi Verma & Mahir Thakkar
 custom_js:
   - vega.min
   - vega-lite.min
@@ -54,8 +54,6 @@ In this interactive visualization, we aim to explore and analyze the trends in u
 
 ### Minimum Wage Data
 
-Our visualization from dataset 1
-
 <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_average_minimum_wage_data.json" style="width: 100%"></vegachart>
 
 
@@ -63,13 +61,15 @@ Our visualization from dataset 1
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_minimum_wage_data.json" style="width: 100%"></vegachart>
 
+
 ### Unemployment data vs Age Groups
 
-Our visualization from dataset 2 
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_unemployment_data_age_groups.json" style="width: 100%"></vegachart>
 
+
 ### Unemployment data vs Gender
+
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_unemployment_data_gender.json" style="width: 100%"></vegachart>
 
