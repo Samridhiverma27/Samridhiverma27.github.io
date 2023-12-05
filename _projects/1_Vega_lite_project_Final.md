@@ -55,14 +55,17 @@ In this interactive visualization, we aim to explore and analyze the trends in u
 
 ### Contextual Plots
 
+
 <vegachart schema-url="{{ site.baseurl }}/assets/json/interactive_unemployment_chart.json" style="width: 100%"></vegachart>
 
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/altair_average_minimum_wage_data.json" style="width: 100%"><vegachart>
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_minimum_wage_data.json" style="width: 100%"></vegachart>
 
+
+
 <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_unemployment_data_age_groups.json" style="width:100%"><vegachart>
+
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_unemployment_data_gender.json" style="width: 100%"></vegachart>
 
