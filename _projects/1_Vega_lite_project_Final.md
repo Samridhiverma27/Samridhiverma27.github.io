@@ -13,18 +13,21 @@ custom_js:
 # Decades of Unemployment - A Comprehensive Analysis Across US States
 ##### Team members : Samridhi Verma and Mahir Thakkar
 
-## 1.1 Objective:
+## 1.1 Objective
+
 Unemployment, a persistent challenge in the United States, extends beyond mere statistics—it has far-reaching consequences that touch every aspect of society. This report seeks to unravel the intricate story of unemployment trends across US states over the past four decades, employing a comprehensive analysis of meticulously gathered data.
 
-## 1.2 Purpose:
+## 1.2 Purpose
+
 Our data visualisation notebook has one main goal: to show unemployment trends across US states in a way that's easy to understand. We're using reliable data from the Bureau of Labor Statistics to create pictures and charts that tell the story of job situations over many years. Our aim is to help everyone – from everyday people to decision-makers – see the impact of unemployment on society. Through simple and interactive visuals, we want to start conversations and help find solutions to unemployment challenges. This isn't just about numbers; it's about making the information clear and encouraging everyone to think about how we can create a stronger and fairer economy together.
 
 ## 1.3 About the Data
 
-### Primary Dataset:
+### Primary Dataset
+
 Our primary dataset, the backbone of our analysis, is sourced from the Bureau of Labor Statistics (BLS). Specifically, we rely on the BLS's Economic News Release on (Monthly) State Employment and Unemployment. This dataset, spanning from January 1976 to the present, provides a detailed account of unemployment rates across US states. The statistics encompass crucial variables such as the Year/Month of Statistic, Total Civilian Non-Institutional Population in State/Area, Total Civilian Labor Force in State/Area, Percent (%) of State/Area's Population, Total Employment in State/Area etc. The meticulous documentation by the BLS ensures the reliability and accuracy of the information, forming the cornerstone of our comprehensive analysis.
 
-### Additional Datasets:
+### Additional Datasets
 
 In addition to our primary dataset, we incorporate two supplementary datasets to enrich our understanding of the unemployment landscape. The first supplementary dataset delves into demographic breakdowns, offering insights into how unemployment affects different segments of the population. Sourced from Kaggle, [unemployment rates by demographics](https://www.kaggle.com/datasets/asaniczka/unemployment-rates-by-demographics-1978-2023), this dataset includes variables such as age, gender, ethnicity, and education levels, providing a nuanced perspective on the social dimensions of unemployment.
 
