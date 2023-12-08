@@ -51,24 +51,23 @@ Let’s look at our dataset
 
 
 
-
 ### Analysis
 
 In this interactive visualization, we aim to explore and analyze the trends in unemployment across different U.S. states over the years. By selecting a specific state using the dropdown menu, users can dynamically observe the variations in the monthly unemployment rates. The bar plot visually represents the percentage of the labor force unemployed for each month in the chosen state and year, offering a clear depiction of the fluctuations in unemployment levels. 
 
 This visualization enables users to identify patterns, seasonal trends, and potential anomalies in the unemployment data. By interacting with the widgets, researchers, policymakers, and analysts can gain valuable insights into the dynamics of the labor market, aiding in the formulation of targeted policies and strategies to address unemployment challenges in specific regions and time periods.
 
-#### Interactive chart on minimum wage over the years by state
+##### Interactive chart on minimum wage over the years by state
 
 ## <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_minimum_wage_data.json" style="width: 100%"></vegachart>
 
 
-#### Gender Distribution for Unemployemnt
+##### Gender Distribution for Unemployemnt
 
 ## <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_unemployment_data_gender.json" style="width: 100%"></vegachart>
 
 
-#### Unemployment in various age groups
+##### Unemployment in various age groups
 
 ## <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_unemployment_data_age_groups.json" style="width:100%"><vegachart>
 
