@@ -62,10 +62,10 @@ This visualization enables users to identify patterns, seasonal trends, and pote
 ## <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_minimum_wage_data.json" style="width: 100%"></vegachart>
 
 
-##### Note: The user can play aroun with the interactivity for the above plot by selecting the states from the legend on the side. 
+###### Note: The user can play aroun with the interactivity for the above plot by selecting the states from the legend on the side. 
 
 
-##### Gender Distribution for Unemployemnt
+##### Gender Distribution for Unemployment plot
 
 ## <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_unemployment_data_gender.json" style="width: 100%"></vegachart>
 
@@ -78,7 +78,9 @@ This visualization enables users to identify patterns, seasonal trends, and pote
 
 ## Contextual Plots
 
-These visualizations offer a glimpse into unemployment trends based on age groups and gender. The first plot illustrates how unemployment rates vary across different age brackets over time, helping identify age-specific patterns. The second plot, a stacked area chart, provides insights into the gender distribution of unemployment, showcasing the relative contributions of male and female unemployment rates to the overall trend. These visualizations enable a quick and clear understanding of how different demographic factors influence and contribute to overall unemployment rates, aiding policymakers and analysts in developing targeted strategies for specific groups in the labor market.
+These visualizations offer a glimpse into unemployment trends based on age groups and gender. The first plot illustrates how unemployment rates vary across different age brackets over time, helping identify age-specific patterns. The second plot, a stacked area chart, provides insights into the gender distribution of unemployment, showcasing the relative contributions of male and female unemployment rates to the overall trend. 
+
+These visualizations enable a quick and clear understanding of how different demographic factors influence and contribute to overall unemployment rates, aiding policymakers and analysts in developing targeted strategies for specific groups in the labor market.
 
 
 ## Citations
