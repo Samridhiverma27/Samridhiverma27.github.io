@@ -62,9 +62,13 @@ This visualization enables users to identify patterns, seasonal trends, and pote
 ## <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_minimum_wage_data.json" style="width: 100%"></vegachart>
 
 
+##### Note: The user can play aroun with the interactivity for the above plot by selecting the states from the legend on the side. 
+
+
 ##### Gender Distribution for Unemployemnt
 
 ## <vegachart schema-url="{{ site.baseurl }}/assets/json/altair_unemployment_data_gender.json" style="width: 100%"></vegachart>
+
 
 
 ##### Unemployment in various age groups
